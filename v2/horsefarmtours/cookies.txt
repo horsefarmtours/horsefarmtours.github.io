@@ -1,0 +1,11 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.horsefarmtours.com	TRUE	/	FALSE	1999999999	crumb	Be/86uaPrKqRZTMzNzZkNzlmNGJjZDBjNmFmMTdhODRhOWRlYjA2
+www.tripadvisor.com	TRUE	/	FALSE	1999999999	TADCID	O0qlKPqH18B9oTDfABQCJ4S5rDsRRMescG99HippfoTNz_4Di6UNcAavsE-lzN8gerqM03iwEGsrYhdU-1sQQM1OdkOhnivVhjg
+www.tripadvisor.com	TRUE	/	FALSE	1999999999	TASameSite	1
+www.tripadvisor.com	TRUE	/	FALSE	1999999999	SameSite	Strict
+.tripadvisor.com	TRUE	/	FALSE	1999999999	TAUnique	%1%enc%3Aib3iRYyVAzLMZvdJPeRWQ8eUw0iGlHAYY7rPDmg58nE9p8Q3jnsEfvnr4XSOqnNXNox8JbUSTxk%3D
+.tripadvisor.com	TRUE	/	FALSE	1999999999	ServerPool	C
+.tripadvisor.com	TRUE	/	FALSE	1999999999	TASession	V2ID.F31B939766CDC6A2031F1F0F882B7B5C*SQ.2*HS.recommended*ES.popularity*DS.5*SAS.popularity*FPS.oldFirst*FA.1*TRA.true
+.tripadvisor.com	TRUE	/	FALSE	1999999999	TACds	A.2.14348.2.2025-04-08
+

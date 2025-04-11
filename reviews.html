@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horse Farm Tours - Reviews</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="information.html">Tour Information</a></li>
+                <li><a href="guides.html">Our Guides</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="lexington.html">Visiting Lexington</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="book.html">Book a Tour</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero reviews-hero">
+            <h1>Reviews</h1>
+            <p>What our guests say about their experience</p>
+        </section>
+
+        <section class="reviews-content">
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="images/reviewer1.jpg" alt="Sarah Hubbard" class="reviewer-photo">
+                    <div class="reviewer-info">
+                        <h3>Sarah Hubbard</h3>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    <p>"We very much enjoyed our recent Horse Farm Tour directed by David Leet. As horse owners, we were impressed with his knowledge of the equine industry, farms and Keeneland history, as well as his hometown insight of the Lexington area. We would definitely suggest your tours to anyone!"</p>
+                </div>
+                <div class="review-date">August 3, 2016</div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="images/reviewer2.jpg" alt="Karen Wood" class="reviewer-photo">
+                    <div class="reviewer-info">
+                        <h3>Karen Wood</h3>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    <p>"We haven't stopped talking about how wonderful the tour was since we went! Leslie was fantastic - she packed in so much interesting information. She grew up in the area, which added an extra viewpoint, experience, and knowledge. We heard the farm tours were good, but this was so much more than good! We've been to Lexington other times, but this tour was a highlight of our visit. Thank you Horse Farm Tours!"</p>
+                </div>
+                <div class="review-date">August 3, 2016</div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="images/reviewer3.jpg" alt="Gail Lea Roy" class="reviewer-photo">
+                    <div class="reviewer-info">
+                        <h3>Gail Lea Roy</h3>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    <p>"My husband and I enjoyed our tour and would recommend anyone headed to Lexington to take the time and book a tour with Horse Farm Tours. Leslie made us feel like old friends. She answered all our questions and has an excellent sense of humor. Her knowledge of the horse farms and history of Kentucky made this tour a highlight of our visit."</p>
+                </div>
+                <div class="review-date">August 3, 2016</div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="images/reviewer4.jpg" alt="John and Marilyn O." class="reviewer-photo">
+                    <div class="reviewer-info">
+                        <h3>John and Marilyn O.</h3>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    <p>"Just a note to express again how much we enjoyed the tour on Tuesday. The 'up close and personal' approach was so much better than the usual tour mob scene and your knowledge of the thoroughbred world is impressive. We would recommend your service to anyone."</p>
+                </div>
+                <div class="review-date">August 3, 2016</div>
+            </div>
+        </section>
+
+        <section class="review-form">
+            <h2>Share Your Experience</h2>
+            <form id="reviewForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="rating">Rating</label>
+                    <select id="rating" name="rating" required>
+                        <option value="">Select a rating</option>
+                        <option value="5">★★★★★</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="1">★☆☆☆☆</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="review">Your Review</label>
+                    <textarea id="review" name="review" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Submit Review</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p>Phone: (859) 268-2906</p>
+            <p>Email: kentuckyhorsefarmtours@gmail.com</p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Horse Farm Tours, Inc. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('reviewForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your review! It will be published after moderation.');
+        });
+    </script>
+</body>
+</html> 
